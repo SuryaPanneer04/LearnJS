@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        h1{
+            text-align: center;
+            
+        }
+        p{
+            text-align: center;
+            font-size: medium;
+        }
+            </style>
+</head>
+<body>
+     <h1>JS syntax using simple program</h1>
+     <p id="variables"></p>
+     <p id="literal"></p>
+     <p id="String"></p>
+     <script>
+        // use variable declaration
+       var x;
+       let y;
+       x=10;
+       y=6;
+       let z=10+(x*y);
+       document.getElementById("variables").innerHTML="z value is:"+z;
+      //literal values  number are written with or without decimal values
+      x=10.50;
+      y=20.00000;
+      z=1001;
+      document.getElementById("literal").innerHTML="difference in:"+x+",  y value:  "+y+",   z value:    "+z;
+      // single and double quotes defference.
+      a='Hello Surya'
+      b="How r u"
+      document.getElementById("String").innerHTML="Single :"+a+",  Double Quotes :"+b;
+      
+     </script>
+    
+</body>
+</html>

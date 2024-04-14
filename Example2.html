@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        h1{
+            text-align: center;
+            
+        }
+        .btn1{
+               float: right;
+               margin-right: 700px;    
+        }
+        .btn2{
+               float: right;
+               margin-right: 682px;  
+               margin-top: 10px;  
+        }
+        p{
+            text-align: center;
+            font-size: medium;
+        }
+            </style>
+</head>
+<body>
+    <h1>The first Arithmatic program in javascript </h1>
+      <!-- button tag, click the button print value -->
+    <button type="button" class="btn1" onclick="addition()">Addition</button>     
+    <button type="button" class="btn2" onclick="subtraction()">Subtraction</button> 
+    <p id="addition"></p>  
+    <p id="subtraction"></p>
+    <p id="mul"></p>
+    <p id="modules"></p>
+    <script> 
+    //individual button
+        function addition(){
+        a=10; //js program 
+        b=20;
+        c=a+b;
+        document.getElementById("addition").innerHTML="Addition value is:"+c+".";
+        }
+        function subtraction(){
+        a=10; //js program 
+        b=20
+        c=a-b;
+        document.getElementById("subtraction").innerHTML="subtraction value is:"+c+".";
+        }
+        // No function calling default running in this program..
+        a=10;
+        b=20;
+        c=a*b;
+        document.getElementById("mul").innerHTML="Multiplication value is:"+c+".";
+        c=a%b;
+        document.getElementById("modules").innerHTML="modules value is:"+c+".";
+    </script>
+</body>
+</html>
