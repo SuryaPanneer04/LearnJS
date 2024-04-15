@@ -2,8 +2,35 @@
 <html>
 <head>
     <title>Document</title>
+    <style>
+        p{
+            font-size: medium;
+            color: red;
+
+        }
+    </style>
 </head>
 <body>
-   <h1>Hello!</h1>  
+   <h1>Js variables</h1> 
+   <p id="concatenate"></p>
+   <p id="variable"></p>
+   <p id="multiline"></p>
+   <script> 
+    let $=10+"4"+20;//concatenate
+    document.getElementById("concatenate").innerHTML=$;
+    
+    //let and const variable
+   const a=10,b=20;
+   let result=a+b;
+    document.getElementById("variable").innerHTML=result;
+    
+    //multiple line declaration
+    let first_Name="Surya",
+    last_Name="P",
+    age= 19;
+    document.getElementById("multiline").innerHTML= first_Name+"  "+last_Name+"<br>"+age;
+    
+   </script>
+
 </body>
 </html>
