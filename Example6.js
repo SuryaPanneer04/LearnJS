@@ -28,13 +28,3 @@ console.log("Modules value is :"+z);
 
 }
 arith();
-
-// function comparision(){
-//     let a=10,b=20,z;
-//     z=a>b;
-//     console.log(z);
-//     z=a<b;
-//     console.log(z);
-
-// }
-// comparision();
